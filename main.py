@@ -7,6 +7,10 @@ app = Flask(__name__, template_folder='templates')
 def hello_world():
     return render_template('index.html')
 
+@app.route('/projects')
+def proj_options():
+    return render_template('projects.html')
+
 # favicon loads
 @app.route('/favicon.ico')
 def favicon():
