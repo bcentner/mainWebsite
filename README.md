@@ -2,8 +2,11 @@
 Flask application that host personal website
 
 TO RUN:
+# on mac
     $. myEnv/bin/activate
-    # install flask if needed
+
+# on windows
+    $source myEnv/bin/activate
     
     # to exit venv
     $deactivate
